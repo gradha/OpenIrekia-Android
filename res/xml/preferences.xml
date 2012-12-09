@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		android:key="pref_section_ui"
+		android:title="21">
+
+	<ListPreference
+		android:key="lang_preference"
+		android:title="23"
+		android:summary="24"
+		android:entries="@array/entries_lang_preference"
+		android:entryValues="@array/entryvalues_lang_preference"
+		android:dialogTitle="25"
+		android:defaultValue="auto"/>
+
+	<CheckBoxPreference
+		android:key="volume_key_navigation"
+		android:title="28"
+		android:summary="29"
+		android:defaultValue="true"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="pref_section_data"
+		android:title="22">
+
+	<!--CheckBoxPreference
+		android:key="prefetch_on_wifi"
+		android:title="30"
+		android:summary="31"
+		android:defaultValue="false"/-->
+
+	<CheckBoxPreference
+		android:key="purge_cache"
+		android:title="26"
+		android:summary="27"
+		android:defaultValue="false"/>
+
+	<CheckBoxPreference
+		android:key="acra.enable"
+		android:title="38"
+		android:summaryOn="39"
+		android:summaryOff="40"
+		android:defaultValue="true"/>
+
+	</PreferenceCategory>
+</PreferenceScreen>

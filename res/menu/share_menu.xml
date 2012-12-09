@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--item android:id="@+id/copy_url"
+		android:icon="@drawable/ic_copy_url"
+		android:title="15" /-->
+	<item android:id="@+id/send_by_mail"
+		android:icon="@drawable/ic_send_by_mail"
+		android:title="16" />
+	<item android:id="@+id/twitter"
+		android:icon="@drawable/ic_twitter"
+		android:title="17" />
+	<item android:id="@+id/facebook"
+		android:icon="@drawable/ic_facebook"
+		android:title="18" />
+</menu>

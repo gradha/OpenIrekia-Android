@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@android:color/white"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_height="wrap_content"
+		android:background="@android:color/white"
+		android:layout_width="fill_parent"
+		android:layout_weight="1"></TextView>
+	<ImageView
+		android:id="@+id/imageView1"
+		android:adjustViewBounds="true"
+		android:scaleType="center"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:background="@android:color/white"
+		android:src="@drawable/splash_logo"
+		android:layout_height="wrap_content">
+	</ImageView>
+	<TextView
+		android:id="@+id/connecting_text"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="@android:color/white"
+		android:textColor="@android:color/black"
+		android:gravity="center"
+		android:text="..."
+		android:layout_width="fill_parent"
+		android:textSize="22dip"></TextView>
+	<ProgressBar
+		android:layout_height="wrap_content"
+		android:background="@android:color/white"
+		android:id="@+id/progress_bar"
+		android:indeterminate="true"
+		style="@android:style/Widget.ProgressBar.Inverse"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"></ProgressBar>
+</LinearLayout>

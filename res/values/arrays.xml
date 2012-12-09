@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_lang_preference">
+		<item>System language</item>
+		<item>English</item>
+		<item>Español</item>
+		<item>Euskara</item>
+	</string-array>
+
+	<!-- Used in app/menu examples -->
+	<string-array name="entryvalues_lang_preference">
+		<item>auto</item>
+		<item>en</item>
+		<item>es</item>
+		<item>eu</item>
+	</string-array>
+</resources>

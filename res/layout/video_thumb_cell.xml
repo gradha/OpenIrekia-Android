@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/list_cell_bg_selector">
+	<com.github.droidfu.widgets.WebImageView
+		android:id="@+id/image"
+		android:src="@drawable/video_loading"
+		android:maxWidth="285dip"
+		android:maxHeight="160dip"
+		android:minHeight="30dip"
+		android:minWidth="30dip"
+		android:layout_centerInParent="true"
+		android:adjustViewBounds="true"
+		android:layout_width="285dip"
+		android:layout_height="160dip"
+		android:padding="4dip"
+		android:scaleType="fitXY"></com.github.droidfu.widgets.WebImageView>
+	<ImageView
+		android:id="@+id/button"
+		android:src="@drawable/ic_video_play"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_centerInParent="true"
+		></ImageView>
+</RelativeLayout>

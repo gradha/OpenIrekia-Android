@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Irekia</string>
+	<string name="prog_title">In progress...</string>
+	<string name="prog_download">Downloading data, please wait.</string>
+	<string name="droidfu_progress_dialog_title">In progress...</string>
+	<string name="droidfu_progress_dialog_message">Processing, please wait.</string>
+	<string name="droidfu_error_dialog_title">Error</string>
+	<string name="droidfu_dialog_button_send_error_report">Send error report</string>
+	<string name="droidfu_error_report_email_address">gradha@argon.sabren.com</string>
+	<string name="droidfu_error_report_email_subject">9droids errors</string>
+	<string name="download_problems">Download problems</string>
+	<string name="download_problems_retry">After trying several times, it was impossible to retrieve content from the remote server. Do you want to keep retrying?</string>
+	<string name="download_problems_es">Problemas de descarga</string>
+	<string name="download_problems_retry_es">Tras probar varias veces, fue imposible obtener contenido del servidor remoto. ¿Quiere continuar reintentando?</string>
+	<string name="download_problems_eu">Arazoak deskargarekin</string>
+	<string name="download_problems_retry_eu">Hainbat saiakera ondoren, ezin izan da edukia zerbitzariatik lortu. Saiatzen jarraitu nahi duzu?</string>
+</resources>

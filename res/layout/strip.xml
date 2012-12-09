@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="0dp">
+	<Gallery
+		android:id="@+id/strip"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<LinearLayout
+		android:id="@+id/button_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:padding="0dip">
+		<Button
+			android:id="@+id/prev_button"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:background="@drawable/nav_prev_selector"
+			android:text=""
+			android:layout_marginLeft="2dip"
+			android:layout_marginRight="2dip"
+			android:layout_marginTop="2dip"
+			android:layout_marginBottom="2dip"></Button>
+		<Button
+			android:id="@+id/next_button"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:background="@drawable/nav_next_selector"
+			android:text=""
+			android:layout_marginLeft="2dip"
+			android:layout_marginRight="2dip"
+			android:layout_marginTop="2dip"
+			android:layout_marginBottom="2dip"></Button>
+	</LinearLayout>
+</LinearLayout>
